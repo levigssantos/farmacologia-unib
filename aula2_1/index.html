@@ -3,39 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aula 2_1 — Membranas e absorção</title>
 
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: white;
       font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.5;
+    }
+
+    .video-container {
+      width: 100%;
+      margin: 0;
+      padding: 0;
     }
 
     video {
+      display: block;
       width: 100%;
-      max-width: 800px;
+      height: auto;
+      margin: 0;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>Aula 2_1 — Membranas e absorção: da dose ao sangue</h1>
-
-  <h2>Sistema digestório</h2>
-
-  <p>
-    Vídeo de apoio ao estudo do percurso do medicamento por via oral
-    até a circulação sistêmica.
-  </p>
-
-  <video controls preload="metadata">
+<div class="video-container">
+  <video controls preload="metadata" playsinline>
     <source src="videos/sistema_digestorio.mp4" type="video/mp4">
     Seu navegador não suporta a reprodução deste vídeo.
   </video>
+</div>
 
 </body>
 </html>
